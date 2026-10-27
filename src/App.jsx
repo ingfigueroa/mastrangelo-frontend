@@ -1,4 +1,8 @@
-import { SiInstagram } from 'react-icons/si';
+
+
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Dentro de tu componente:
 
@@ -110,7 +114,70 @@ function App() {
         <a href="https://www.instagram.com/fabio_mastrangelo1/" target="_blank" rel="noreferrer"><Instagram/><span><strong>Instagram</strong><small>@fabio_mastrangelo1</small></span><ArrowUpRight className="contact-arrow"/></a>
       </div>
     </section> */}
-    <footer><a className="brand footer-brand" href="#inicio"><span className="brand-mark">FM</span><span>Fabio Mastrangelo<small>Derecho Internacional Privado</small></span></a><span>© {new Date().getFullYear()} Fabio Mastrangelo · Córdoba, Argentina</span><a href="#inicio">Volver arriba ↑</a></footer>
+
+
+{/* <footer>
+  <a className="brand footer-brand" href="#inicio">
+    <span className="brand-mark">FM</span>
+    <span>
+      Fabio Mastrangelo
+      <small>Derecho Internacional Privado</small>
+    </span>
+  </a>
+
+  <div className="footer-contacto">
+    <span>
+      © {new Date().getFullYear()} Fabio Mastrangelo · Córdoba, Argentina
+    </span>
+    <a href="tel:+549XXXXXXXXXX">
+      📱 Celular
+    </a>
+    <a
+      href="https://www.instagram.com/USUARIO_INSTAGRAM/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      📷 Instagram
+    </a>
+  </div>
+
+  <div className="footer-desarrollo">
+    <a href="#inicio">Volver arriba ↑</a>
+    <span>Desarrollado por:</span>
+    <a href="tel:+5493516557517">
+      +54 9 351 6557517
+    </a>
+  </div>
+</footer> */}
+
+
+    <footer>
+      <a className="brand footer-brand" href="#inicio"><span className="brand-mark">FM</span><span>Fabio Mastrangelo<small>Derecho Internacional Privado</small>
+    
+    </span>
+    
+    </a>
+    <a className="brand footer-brand" href="#inicio">
+    <span>
+     Contacto: 
+     <p> <small> <FontAwesomeIcon icon={faPhone} />  +54 9 351 6502759</small></p> 
+     <p><small> <FontAwesomeIcon icon={faInstagram} /> <a
+      href="https://www.instagram.com/#fabio_mastrangelo1/"
+      target="_blank"
+      rel="noopener noreferrer"
+    > #fabio_mastrangelo1 </a></small> </p>
+     </span>
+     </a>
+     
+    
+    
+    <span>
+      <p>Sitio desarrollado por:</p>
+  <FontAwesomeIcon icon={faPhone} />
+  +54 9 351 6557517
+</span>    
+    <a href="#inicio">Volver arriba ↑</a>
+    </footer>
   </main>
 }
 

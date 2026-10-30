@@ -82,16 +82,34 @@ function App() {
         <article className="practice-card"><span className="card-number">04</span><h3>Casos con niños, niñas y adolescentes</h3><p>Abordaje centrado en el interés superior del niño, con trabajo interdisciplinario e interconsultas con colegas de distintos países cuando el caso lo requiere.</p></article>
         <article className="practice-card wide"><div><span className="card-number">05</span><h3>Litigio complejo y actualización permanente</h3></div><p>Actualización doctrinaria y jurisprudencial en las distintas ramas de especialización.</p></article>
       </div>
-      <div className="practice-footer"><p>¿Necesitás asesoramiento en un asunto con alcance internacional?</p><a className="button button-outline" href="https://docs.google.com/forms/d/e/1FAIpQLSdKf5AOEjjJdbuBkGgDOOjMFpfebibEI1fUBDjzGPC3b3Pq-w/viewform"  target="_blank">Ponete en contacto </a></div>
+      <div className="practice-footer"><p>¿Necesitás asesoramiento en un asunto con alcance internacional?</p><a className="button button-outline" href="https://forms.gle/pn2Jc2Ki5TyxJhRS8"  target="_blank">Ponete en contacto </a></div>
     </section>
 
     <section className="publications section-pad" id="publicaciones">
       <div className="publication-banner"><img src={A+'banner-publicaciones.jpg'} alt="Imagen relacionada con publicaciones jurídicas"/><div><p className="eyebrow">Producción académica</p><h2>Publicaciones</h2></div></div>
       <div className="publication-list">
-        <article><span>01</span><p>La cooperación judicial internacional y nuevas tecnologías: algunas consideraciones sobre WhatsApp y el correo electrónico como medio de notificación en el proceso internacional.</p></article>
-        <article><span>02</span><p>Un tema esencial en materia de restitución internacional de niños, niñas y adolescentes.</p></article>
-        <article><span>03</span><p>Corte Suprema — El aporte de Córdoba a la restitución internacional de menores: una mirada sobre algunos instrumentos.</p></article>
-        <article><span>04</span><p>El idioma en el derecho internacional privado, ¿un obstáculo para el libre acceso a la justicia?</p></article>
+        <article><span>01</span>
+        
+          <a href="https://ar.ijeditores.com/pop.php?option=articulo&Hash=7562417c521467510bb5e3b578398b3a" target="_blank">
+                    <p>La cooperación judicial internacional y nuevas tecnologías: algunas consideraciones sobre WhatsApp y el correo electrónico como medio de notificación en el proceso internacional.</p>
+        </a>
+        </article>
+        <article><span>02</span>
+        <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=9962084" target="_blank">
+        <p>Un tema esencial en materia de restitución internacional de niños, niñas y adolescentes.</p>
+        </a>
+        </article>
+        <article><span>03</span>
+        <a href="https://biblioteca.csjn.gov.ar/cgi-bin/koha/opac-detail.pl?biblionumber=240813" target="_blank">
+        <p>Corte Suprema — El aporte de Córdoba a la restitución internacional de menores: una mirada sobre algunos instrumentos.</p>
+        </a>
+        </article>
+        <article><span>04</span>
+        <a href=" http://www.biblioteca.calp.org.ar/meran/opac-detail.pl?id1=139914" target="_blank">
+       
+        <p>El idioma en el derecho internacional privado, ¿un obstáculo para el libre acceso a la justicia?</p>
+        </a>
+        </article>
       </div>
     </section>
 
@@ -105,50 +123,6 @@ function App() {
       <div className="education-copy"><p className="eyebrow">Trayectoria académica</p><h2>Formación para abordar<br/><em>casos complejos.</em></h2><ul><li><span><strong>Abogado</strong><small>Facultad de Derecho · Universidad Nacional de Córdoba</small></span></li><li><span><strong>Diplomado en Derecho de Familia y Sucesiones</strong><small>Facultad de Derecho · Universidad Nacional de Córdoba</small></span></li><li><span><strong>Master en Derecho</strong><small>Universidad Complutense de Madrid · España</small></span></li><li><span><strong>Doctor en Derecho Internacional Privado</strong><small>Universidad Nacional de Córdoba</small></span></li></ul></div>
     </section>
 
-{/*     <section className="contact section-pad" id="contacto">
-      <div><p className="eyebrow">Contacto</p><h2>Hablemos de tu<br/><em>caso.</em></h2><p className="contact-intro">Para consultas y coordinación de entrevistas, podés comunicarte a través de los siguientes medios.</p></div>
-      <div className="contact-details">
-        <a href="https://maps.google.com/?q=Dean+Funes+743+Cordoba+Argentina" target="_blank" rel="noreferrer"><MapPin/><span><strong>Estudio jurídico</strong><small>Dean Funes 743, primer piso, Of. B<br/>Córdoba, Argentina · CP X5000</small></span><ArrowUpRight className="contact-arrow"/></a>
-        <a href={`mailto:${email}`}><Mail/><span><strong>Correo electrónico</strong><small>{email}</small></span><ArrowUpRight className="contact-arrow"/></a>
-        <a href={`tel:${phone}`}><Phone/><span><strong>Teléfono</strong><small>+54 9 351 650-2759</small></span><ArrowUpRight className="contact-arrow"/></a>
-        <a href="https://www.instagram.com/fabio_mastrangelo1/" target="_blank" rel="noreferrer"><Instagram/><span><strong>Instagram</strong><small>@fabio_mastrangelo1</small></span><ArrowUpRight className="contact-arrow"/></a>
-      </div>
-    </section> */}
-
-
-{/* <footer>
-  <a className="brand footer-brand" href="#inicio">
-    <span className="brand-mark">FM</span>
-    <span>
-      Fabio Mastrangelo
-      <small>Derecho Internacional Privado</small>
-    </span>
-  </a>
-
-  <div className="footer-contacto">
-    <span>
-      © {new Date().getFullYear()} Fabio Mastrangelo · Córdoba, Argentina
-    </span>
-    <a href="tel:+549XXXXXXXXXX">
-      📱 Celular
-    </a>
-    <a
-      href="https://www.instagram.com/USUARIO_INSTAGRAM/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      📷 Instagram
-    </a>
-  </div>
-
-  <div className="footer-desarrollo">
-    <a href="#inicio">Volver arriba ↑</a>
-    <span>Desarrollado por:</span>
-    <a href="tel:+5493516557517">
-      +54 9 351 6557517
-    </a>
-  </div>
-</footer> */}
 
 
     <footer>
